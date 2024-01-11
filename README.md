@@ -15,7 +15,7 @@ Some important libraries required for building this project are:
   * Pandas
   * Numpy
   * BeautifulSoup
-  * 
+    
 For further details about the requirements refer the requirements.txt file.
 
 # How to Build
