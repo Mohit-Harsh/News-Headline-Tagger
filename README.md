@@ -24,7 +24,7 @@ For further details about the requirements refer the requirements.txt file.
 
 * Scrape News Headlines data from `Google News` using `BeautifulSoup`.
 * Process and Store the data into a Dataframe and save it. Here is my dataset - [google_news_dataset.json](https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/google_news_dataset.json).
-* Refer [Google News Scraper.ipynb](https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/Google%20News%20Scraper.ipynb) file for the python code.
+* Refer [Google News Scraper.ipynb](https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/Google%20News%20Scaper.ipynb) file for the python code.
 
 ### 2. Build DL Model
 
