@@ -9,12 +9,12 @@ This Project is a combination of `Web Scraping`, `AI Model Building` and `Deploy
 
 Some important libraries required for building this project are:
 
-  * Tensorflow
-  * Keras
-  * Tkinter
-  * Pandas
-  * Numpy
-  * BeautifulSoup
+  * <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/tensorflow.png" height="30" align="center"/> Tensorflow
+  * <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/keras.png" height="30" align="center"/> Keras
+  * <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/icons8-python-96.png" height="30" align="center"/> Tkinter
+  * <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/pandas.png" height="30" align="center"/> Pandas
+  * <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/numpy.png" height="30" align="center"/> Numpy
+  * <img src="https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/assets/icons8-python-96.png" height="30" align="center"/> BeautifulSoup
     
 For further details about the requirements refer the requirements.txt file.
 
