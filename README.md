@@ -29,17 +29,18 @@ For further details about the requirements refer the requirements.txt file.
 ### 2. Build DL Model
 
 * Load the scraped data as a Pandas DataFrame.
-* Create a Tokenizer using keras to tokenize News Headlines.
-* Create a Tokenizer using keras to tokenize Tags.
-* Fit both the Tokenizers on respective texts.
-* Use the Tokenizers to convert Texts to Sequences.
-* One-Hot-Encode the Tags.
-* Create a Sequential model with the following layers :-
-  
-  * Input Layer
-  * Embedding Layer of 128 dimension.
-  * LSTM layer with 100 units, input dimension - (,128)
-  * Dropout Layer
+* Load BERT Tokenizer form tensorflow hub.
+* Load the BERT preprocessor from tensorflow hub.
+* Label Encode the Tags using sklearn's LabelEncoder.
+* One-Hot-Encode the Label Encoded Tags using sklearn's OneHotEncoder.
+* Create a Funtional Keras Model with the following layers :-
+ 
+  * Input Layer of shape - ().
+  * BERT Preprocessing Layer that takes InputLayer outputs as inputs. (Max Tokens = 128)
+  * BERT Tokenizer Layer that takes Preprocessed outputs as inputs. (Max Tokens = 128)
+  * Dense Layer with 768 units that takes BERT Tokenizer Sequence Outputs as inputs.
+  * LSTM layer with 768 units, input shape - (None,768)
+  * Dropout Layer (0.3)
   * Dense Layer with 'Softmax' activation.
  
 * Train the model.
@@ -47,5 +48,6 @@ For further details about the requirements refer the requirements.txt file.
 * Refer [News Headline Tagger.ipynb](https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/News%20Headlines%20Tagger.ipynb) file for the python code.
 
 ### 3. Build Tkingter GUI
+
 You can also build a Tkinter GUI for inference.
 Refer [News Headline Tagger GUI.ipynb](https://github.com/Mohit-Harsh/News-Headline-Tagger/blob/main/New%20Headline%20Tagger%20GUI.ipynb) file for python code.
