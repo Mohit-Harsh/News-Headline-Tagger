@@ -1,6 +1,6 @@
 # News-Headline-Tagger
 
-https://github.com/Mohit-Harsh/News-Headline-Tagger/assets/111693866/4366b251-8dd8-42e0-bc74-0616757b7150
+https://github.com/Mohit-Harsh/News-Headline-Tagger/assets/111693866/ce313044-3d75-47d5-9793-74516048c631
 
 News Headline Tagger is an `LSTM` based `Text Classifier` that classifies the News Headlines into different categories like - Sports, Politics, Entertainment, Environment, Technology etc.
 This Project is a combination of `Web Scraping`, `AI Model Building` and `Deployment Using Tkinter GUI`.
